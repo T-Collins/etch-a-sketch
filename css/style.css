@@ -1,5 +1,8 @@
 #wrapper {
 	background-color: green;
+	height: auto;
+	overflow: hidden;
+	position: relative;
 }
 
 #header {
@@ -12,11 +15,15 @@
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
+#header img {
+	margin-top: 25px;
+}
+
 .stripe {
-	background-color: white;
+	background-color: rgb(50,75,60);
 	position: absolute;
 	width: 10px;
-	height: 700px;
+	height: 100%;
 	display: inline;
 }
 
@@ -28,6 +35,15 @@
 #rightstripe {
 	float: right;
 	right: 50px;
+}
+
+#container {
+	background-color: black;
+	position: relative;
+	width: 450px;
+	height: 450px; 
+	margin: 50px auto;
+	display: block;
 }
 
 
