@@ -40,10 +40,23 @@
 #container {
 	background-color: black;
 	position: relative;
-	width: 450px;
-	height: 450px; 
+	width: 600px;
+	height: 600px; 
 	margin: 50px auto;
 	display: block;
+}
+
+.gridelement {
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	float: left;
+	border: 1px solid black;
+
+}
+
+.highlight {
+	background-color: black;
 }
 
 
